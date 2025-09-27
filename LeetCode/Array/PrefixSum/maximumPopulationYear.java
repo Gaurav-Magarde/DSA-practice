@@ -1,9 +1,12 @@
+// Leetcode 1854. Maximum Population Year
+
+//
+package LeetCode.Array.PrefixSum;
 class maximumPopulationYear{
     public static void main(String[] args){
 
     }
     public int maximumPopulation(int[][] logs) {
-        int n = logs.length;
         int[] popu = new int[101];
         for (int[] log : logs) {
             int birthDate = log[0];
